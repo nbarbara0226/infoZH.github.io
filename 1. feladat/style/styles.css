@@ -1,0 +1,114 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #373737;
+    color: #fbf9f9;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #292828;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-box {
+    border: 1px solid rgb(40, 40, 40);
+    padding: 15px;
+    flex-grow: 1;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Vagy a kívánt magasság */
+}
+
+.header-content {
+    position: relative;
+    height: 100%;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.header-nav {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.nav-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+h1 {
+    color: #f6f9f8;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+img {
+    width: 1800px;
+    height: 200px;
+    flex-shrink: 1;
+}
+
+#styleToggle {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#styleToggle:hover {
+    background-color: white;
+    color: black;
+}
+
+.style1 {
+    background-color: #f4f4f4; /* világos háttér */
+    color: #d2d2d2; /* világos szöveg */
+}
+
+.style2 {
+    background-color: #1a1616; /* sötét háttér */
+    color: #f4f4f4; /* világos szöveg */
+}
