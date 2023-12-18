@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Termék Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <img src="img/Banner.png" alt="Banner">
+    </div>
+    <div class="container">
+        <h2>Termék Hozzáadása</h2>
+        <input type="text" id="productName" placeholder="Termék neve">
+        <input type="number" id="productPrice" placeholder="Ár">
+        <button onclick="addProduct()">Hozzáadás</button>
+
+        <h3>Termékek</h3>
+        <table id="productList">
+            <tr>
+                <th>Termék Neve</th>
+                <th>Ár</th>
+            </tr>
+        </table>
+    </div>
+
+<button onclick="findCheapestProduct()">Legolcsóbb Termék</button>
+<button onclick="calculateAveragePrice()">Átlagár</button>
+<button onclick="calculatePriceStandardDeviation()">Ár Szórása</button>
+
+<div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
